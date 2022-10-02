@@ -2,7 +2,7 @@
     <div>
         <Titles :viewport="viewport" scene="bizTitle">
             <h1 class="title">
-                @ Pissu Kanna(<span class="params">2022</span>)
+                <span class="params"> <a href="https://education.github.com/experts" target="_blank" title="GitHub">@GitHub</a> </span> Campus Expert
             </h1>
         </Titles>
 
@@ -49,7 +49,7 @@
                     <desc id="aBizDesc">She is a cute light blue pentagon, holding the Magento logo inside an orange
                         circle
                     </desc>
-                    <img :src="require('../../assets/aaaa.png')"  width="600" height="600"/>
+                    <img :src="require('../../assets/CampusExpert.png')"  width="600" height="600"/>
                 </div>
 
                 <svg xmlns="http://www.w3.org/2000/svg" id="dino" viewBox="0 0 100 100" aria-labelledby="dinoDesc">
