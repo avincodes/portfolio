@@ -10,8 +10,8 @@
             <div class="static-container">
                 <div class="std">
                     <p class="-big">
-                        <b>Marketing and Community manager</b> at
-                        <a href="https://www.youtube.com/channel/UCAwE7N-WJi9cqI0DfKOkKWw" target="_blank" title="Pissu Kanna's website">"Pissu Kanna"</a>.
+                        <b>Campus Expert</b> at
+                        <a href="https://www.github.com" target="_blank" title="GitHub">"GitHub"</a>.
                     </p>
                     <p>
                         Pissu Kanna is a Sri Lankan YouTuber with a huge social following,
@@ -51,7 +51,7 @@
                     </desc>
                     <img :src="require('../../assets/aaaa.png')"  width="600" height="600"/>
                 </div>
-                
+
                 <svg xmlns="http://www.w3.org/2000/svg" id="dino" viewBox="0 0 100 100" aria-labelledby="dinoDesc">
                     <desc id="dinoDesc">A purple dinosaur with a red headset, listening and dancing to the music</desc>
                     <g class="dino-dino">
@@ -308,7 +308,7 @@
                         </g>
                     </g>
                 </svg>
-                
+
                 <div id="zen" aria-labelledby="zenDesc" width="25" height="25">
                     <title id="aBizTitle">Biz, the BizCommerce mascot</title>
                     <desc id="zenDesc">She is a cute light blue pentagon, holding the Magento logo inside an orange
@@ -360,9 +360,9 @@
             <div class="static-container">
                 <div class="std">
                     <p>
-                        
+
                         <span class="-big -purple">Involved in Multiple projects including "Pissu Kanna Universe" and Community Management.</span>
-                        
+
                     </p>
                 </div>
             </div>
@@ -370,7 +370,7 @@
         <section class="scene" id="biz3">
             <div class="static-container">
                 <div class="std">
-                
+
                 </div>
             </div>
         </section>

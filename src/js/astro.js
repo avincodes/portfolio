@@ -11,7 +11,7 @@ export default {
             .set('.astro-head', {
                 rotation: -15,
                 transformOrigin: '50% 90%',
-                yPercent: 0,
+                npm install -g npm@8.19.1 yPercent: 0,
                 xPercent: -10,
             })
             .set('.astro-tube', {

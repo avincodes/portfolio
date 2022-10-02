@@ -472,7 +472,7 @@
 
     // Background
 
-    var COLOURS = [ '#61dfff', '#A7EBCA', '#FFFFFF', '#ff6767', '#61dfff' ];
+    var COLOURS = [ '#61dfff', '#A7EBCA', '#FFFFFF', '#ff6767', '#61dfff','#e1c731' ];
     var radius = 0;
     var randomColor = 0;
 
@@ -500,7 +500,7 @@
                 this.lineJoin = 'round';
                 this.fillStyle = this.strokeStyle = COLOURS[ randomColor % COLOURS.length ];
                 this.lineWidth = radius;
-
+                                                    
                 this.beginPath();
                 this.moveTo( touch.ox, touch.oy );
                 this.lineTo( touch.x, touch.y );
