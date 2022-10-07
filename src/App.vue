@@ -1,5 +1,7 @@
 <template>
+    
     <div id="app" :class="this.$route.meta.bodyClass">
+        <Spinner></Spinner>
         <BgBody />
 
         <Header :routeName="this.$route.name"
@@ -32,6 +34,7 @@
     import Header from '@/components/Header.vue';
     import Spine from '@/components/Spine.vue';
     import BgBody from '@/components/BgBody.vue';
+    import Spinner from './components/Spinner.vue';
 
     export default {
         name: 'App',
@@ -142,6 +145,7 @@
             Header,
             Spine,
             BgBody,
-        },
+            Spinner
+},
     };
 </script>
