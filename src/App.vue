@@ -98,7 +98,7 @@
                     .fromTo('.spine-target .circle', 2, {
                         backgroundColor: 'transparent',
                     }, {
-                        backgroundColor: '#5918df',
+                        backgroundColor: '#ff0000',
                     }, 'enter+=1.2')
                     .fromTo('.spine-target .pulse', 4, {
                         autoAlpha: 1,

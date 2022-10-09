@@ -1,7 +1,7 @@
 <template>
   <div class="page-loader" v-if="!isloaded">
     <svg width="400" height="300" viewBox="5 0 80 60" class="waveImg">
-      <path class="wave" fill="none" stroke="#4963E3" stroke-width="3" stroke-linecap="round"
+      <path class="wave" fill="none" stroke="#ff0000" stroke-width="3" stroke-linecap="round"
         d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
     </svg>
   </div>
@@ -54,7 +54,7 @@ export default {
   height: 22px;
   width: 55px;
   border-radius: 9999rem;
-  border: 1px solid #682ae9;
+  border: 1px solid var(--purple);
   position: relative;
   overflow: hidden;
   transform: scale(12);
