@@ -20,4 +20,8 @@ npm start
 
 Once you are finished with the changes and ready to publish, proceed to the GitHub desktop application and push the local changes or use `git push`. The final step is to open a pull request so I can review your changes and add them!
 
+## Contributors
+<a href="https://github.com/avincodes/portfolio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=avincodes/portfolio" />
+</a>
 Feel free to contact me anytime on hello@avinhere.me or for a faster response through Discord on: **Avin#9023**.
