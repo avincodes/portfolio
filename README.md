@@ -1,5 +1,6 @@
 # Avinhere_portfolio
-<img width="1080" alt="Group 20" src="https://user-images.githubusercontent.com/54703305/196355201-61a6848d-ecd9-4671-9b9f-1f9abdf10fa1.png">
+
+<img width="1920" alt="Group 20" src="https://user-images.githubusercontent.com/54703305/196365247-3e109609-3952-428a-89e7-25249c6f936a.png">
 
 
 
