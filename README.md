@@ -1,5 +1,6 @@
 # Avinhere_portfolio
-![image](https://user-images.githubusercontent.com/66766682/193445913-8e9f732c-3781-44d0-a68c-ee6da5570ec9.png)
+<img width="1081" alt="background_2x" src="https://user-images.githubusercontent.com/54703305/196339843-307c8d64-6012-4757-a4e8-7b33ada38778.png">
+
 
 This repository contains the files used to create my personal portfolio hosted at https://avinhere.me/
 
