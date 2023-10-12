@@ -2,12 +2,11 @@
     <div>
         <Titles :viewport="viewport" scene="earlyTitle">
             <h1 class="title" v-if="viewport.is568">
-                Check out my socials<br>
+                Check out my socials<br />
                 (<span class="params">stalk me</span>)
             </h1>
             <h1 class="title" v-else>
-                Check out my socials
-                (<span class="params">stalk me</span>)
+                Check out my socials (<span class="params">stalk me</span>)
             </h1>
 
             <div class="std">
@@ -63,8 +62,11 @@
             <div class="clouds cloud-3"></div>
 
             <div class="pepe-scenery" role="img" aria-labelledby="pepeDesc">
-                <p class="ariaLabel" id="pepeDesc">A floating head carrying musical instruments in the ear, foliage
-                    and monuments in the hair, flies over a greenish ocean during the sunset</p>
+                <p class="ariaLabel" id="pepeDesc">
+                    A floating head carrying musical instruments in the ear,
+                    foliage and monuments in the hair, flies over a greenish
+                    ocean during the sunset
+                </p>
                 <div class="sky"></div>
                 <div class="ocean">
                     <div class="sky-mask"></div>
@@ -77,12 +79,17 @@
         <section class="scene" id="early-days">
             <div class="static-container">
                 <div class="std">
-                    <p>
-                        Find me around.
-                    </p>
+                    <p>Find me around.</p>
                     <p class="-big">
-                        Read my mind...<br>
-                        <span class="-purple"><a href="https://twitter.com/avinhere" target="_blank" title="Visit Biz Commerce's website">uhm, I mean my tweets!</a></span>
+                        Read my mind...<br />
+                        <span class="-purple"
+                            ><a
+                                href="https://twitter.com/avinhere"
+                                target="_blank"
+                                title="Visit Biz Commerce's website"
+                                >uhm, I mean my tweets!</a
+                            ></span
+                        >
                     </p>
                 </div>
             </div>
@@ -91,11 +98,21 @@
             <div class="static-container">
                 <div class="std">
                     <p class="-big">
-                        <span class="-purple">Check out </span>  <span class="-purple">some of my opensource,</span><br>
-                        <span class="-purple">work on </span>  <span class="-purple"><a href="https://github.com/avincodes" target="_blank" title="Visit Biz Commerce's website">Github!</a></span>
+                        <span class="-purple">Check out </span>
+                        <span class="-purple">some of my opensource,</span
+                        ><br />
+                        <span class="-purple">work on </span>
+                        <span class="-purple"
+                            ><a
+                                href="https://github.com/avincodes"
+                                target="_blank"
+                                title="Visit Biz Commerce's website"
+                                >Github!</a
+                            ></span
+                        >
                     </p>
                     <p>
-                        <br>
+                        <br />
                     </p>
                 </div>
             </div>
@@ -104,11 +121,17 @@
             <div class="static-container">
                 <div class="std">
                     <p>
-                        <br>
-                        
-                        <span class="-big -purple"><i>Find </i> <i>my beats</i> on <i></i><a href="https://open.spotify.com/user/6yurjrwd1ow722bilrg5vvn8z?si=dc3a6c4293ab4094" target="_blank" title="Visit Biz Commerce's website">"Spotify"</a>.</span>
-                        
-                        
+                        <br />
+
+                        <span class="-big -purple"
+                            ><i>Find </i> <i>my beats</i> on <i></i
+                            ><a
+                                href="https://open.spotify.com/user/6yurjrwd1ow722bilrg5vvn8z?si=dc3a6c4293ab4094"
+                                target="_blank"
+                                title="Visit Biz Commerce's website"
+                                >"Spotify"</a
+                            >.</span
+                        >
                     </p>
                 </div>
             </div>
@@ -117,15 +140,15 @@
 </template>
 
 <script>
-    import Titles from "./Titles.vue";
+import Titles from './Titles.vue'
 
-    export default {
-        props: {
-            viewport: Object
-        },
-        name: 'EarlyDays',
-        components: {
-            Titles,
-        }
-    }
+export default {
+    props: {
+        viewport: Object,
+    },
+    name: 'EarlyDays',
+    components: {
+        Titles,
+    },
+}
 </script>

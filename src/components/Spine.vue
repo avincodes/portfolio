@@ -9,7 +9,7 @@
 </template>
 
 <script>
-    export default {
-        name: 'Spine'
-    }
+export default {
+    name: 'Spine',
+}
 </script>

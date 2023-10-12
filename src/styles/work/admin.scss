@@ -7,7 +7,7 @@
         position: relative;
         margin: 0 0 2rem -4rem;
         overflow: hidden;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
 
         &:before {
             content: '';
@@ -30,7 +30,7 @@
         max-width: 70rem;
         max-height: 43.75rem;
         overflow: hidden;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         background: #fff;
         position: relative;
         margin: 4rem 0;
@@ -50,8 +50,9 @@
             }
         }
 
-        .new { width: 0 }
-
+        .new {
+            width: 0;
+        }
     }
 
     .more-screens {
@@ -67,16 +68,17 @@
             position: absolute;
             top: 0;
             left: 0;
-            background: url(../../assets/work/admin/admin-mobile-screens.png) no-repeat 0 0;
+            background: url(../../assets/work/admin/admin-mobile-screens.png)
+                no-repeat 0 0;
             background-size: 870px 516px;
-            border-radius: .5rem;
-            box-shadow: 0 1rem 1rem -.5rem rgba(0,0,0,.3);
+            border-radius: 0.5rem;
+            box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
 
-            &.m2{
+            &.m2 {
                 left: 25%;
                 background-position: -290px 0;
             }
-            &.m3{
+            &.m3 {
                 left: 50%;
                 background-position: -580px 0;
             }
@@ -89,10 +91,11 @@
             transform: translateY(-50%);
             height: 800px;
             width: 50%;
-            background: url(../../assets/work/admin/admin-component.png) no-repeat 0 0;
+            background: url(../../assets/work/admin/admin-component.png)
+                no-repeat 0 0;
             background-size: auto 100%;
-            border-radius: .5rem;
-            box-shadow: 0 1rem 1rem -.5rem rgba(0,0,0,.3);
+            border-radius: 0.5rem;
+            box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
         }
     }
 
@@ -109,9 +112,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-
     #admin {
-
         .old-new {
             width: 90vw;
             height: 56.25vw;
@@ -120,7 +121,6 @@
             margin: 2rem 0;
 
             .screen {
-
                 img {
                     display: block;
                     width: 90vw;
@@ -147,10 +147,10 @@
                 height: 356px;
                 background-size: 600px 356px;
 
-                &.m2{
+                &.m2 {
                     background-position: -200px 0;
                 }
-                &.m3{
+                &.m3 {
                     background-position: -400px 0;
                 }
             }
@@ -159,25 +159,21 @@
                 height: 500px;
             }
         }
-
     }
-
 }
 
 @media screen and (max-width: 768px) {
-
     #admin {
-
         .old-new {
             width: calc(100vw - 8rem);
-            height: calc( (100vw - 8rem) * .625 );
+            height: calc((100vw - 8rem) * 0.625);
             max-width: none;
             max-height: none;
 
             .screen {
                 img {
                     width: calc(100vw - 8rem);
-                    height: calc( (100vw - 8rem) * .625 );
+                    height: calc((100vw - 8rem) * 0.625);
                     max-width: none;
                     max-height: none;
                 }
@@ -198,10 +194,10 @@
                 height: 320px;
                 background-size: 540px 320px;
 
-                &.m2{
+                &.m2 {
                     background-position: -180px 0;
                 }
-                &.m3{
+                &.m3 {
                     background-position: -360px 0;
                 }
             }
@@ -211,24 +207,22 @@
             }
         }
 
-        .elephant { max-width: 400px }
-
+        .elephant {
+            max-width: 400px;
+        }
     }
-
 }
 
 @media screen and (max-width: 568px) {
-
     #admin {
-
         .old-new {
             width: calc(100vw - 3rem);
-            height: calc( (100vw - 3rem) * .625 );
+            height: calc((100vw - 3rem) * 0.625);
 
             .screen {
                 img {
                     width: calc(100vw - 3rem);
-                    height: calc( (100vw - 3rem) * .625 );
+                    height: calc((100vw - 3rem) * 0.625);
                 }
             }
         }
@@ -239,11 +233,13 @@
         }
 
         .more-screens {
-            .d { display: none }
+            .d {
+                display: none;
+            }
         }
 
-        .elephant { max-width: 70% }
-
+        .elephant {
+            max-width: 70%;
+        }
     }
-
 }

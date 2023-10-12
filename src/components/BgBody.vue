@@ -9,7 +9,7 @@
 </template>
 
 <script>
-    export default {
-        name: 'BgBody'
-    }
+export default {
+    name: 'BgBody',
+}
 </script>
