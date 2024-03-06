@@ -7,11 +7,11 @@
 </template>
 
 <script>
-    export default {
-        name: 'Titles',
-        props: {
-            scene: String,
-            viewport: Object
-        }
-    }
+export default {
+    name: 'Titles',
+    props: {
+        scene: String,
+        viewport: Object,
+    },
+}
 </script>

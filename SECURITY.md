@@ -9,7 +9,6 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 1.0.1   | :white_check_mark: |
 
-
 ## Reporting a Vulnerability
 
 A vulnerability can be reported by emailing hello@avinhere.me. Expect a response within 24 hours.

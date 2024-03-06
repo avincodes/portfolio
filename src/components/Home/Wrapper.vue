@@ -1,20 +1,18 @@
 <template>
     <section class="scene" id="wrapperTitle">
         <div class="static-container">
-            <h1 class="title">
-                &lt;/wrapper&gt;
-            </h1>
+            <h1 class="title">&lt;/wrapper&gt;</h1>
             <div class="std">
                 <p class="-gray">
-                    <br>
-                    - money doesnt buy you happiness, it buys you crazy ass hapiness<br>
-                    <span class="-answer">- eminem.</span><br>
-                    <br>
-                    <span class="-answer"></span><br>
-                    <br>
-                    <span class="-answer"></span><br>
-                    <br>
-                    
+                    <br />
+                    - money doesnt buy you happiness, it buys you crazy ass
+                    hapiness<br />
+                    <span class="-answer">- eminem.</span><br />
+                    <br />
+                    <span class="-answer"></span><br />
+                    <br />
+                    <span class="-answer"></span><br />
+                    <br />
                 </p>
             </div>
         </div>
@@ -22,7 +20,7 @@
 </template>
 
 <script>
-    export default {
-        name: 'Wrapper'
-    }
+export default {
+    name: 'Wrapper',
+}
 </script>
