@@ -18,11 +18,7 @@
                     <div class="cloud c2"></div>
                 </div>
 
-                <div
-                    class="castle-container"
-                    role="img"
-                    aria-labelledby="castleDesc"
-                >
+                <div class="castle-container" role="img" aria-labelledby="castleDesc">
                     <p class="ariaLabel" id="castleDesc">Find me around.</p>
                     <div class="castle">
                         <div class="top">
@@ -74,19 +70,12 @@
             <div class="static-container">
                 <div class="std">
                     <p class="-big">
-                        check out my professional (and only professional ;) side
-                        on
-                        <span class="-purple"
-                            ><a
-                                style="color: ##000000"
-                                href="https://www.linkedin.com/in/avinin/"
-                                target="_blank"
-                                title="Visit Biz Commerce's website"
-                                >"LinkedIn."</a
-                            ></span
-                        >
+                        check out my professional (and only professional ;) side on
+                        <span class="-purple"><a style="color: ##000000" href="https://www.linkedin.com/in/avinin/" target="_blank" title="Visit Biz Commerce's website">"LinkedIn."</a></span>
                     </p>
-                    <p></p>
+                    <p>
+                        
+                    </p>
                 </div>
             </div>
         </section>
@@ -95,7 +84,7 @@
 </template>
 
 <script>
-export default {
-    name: 'Ghibli',
-}
+    export default {
+        name: 'Ghibli'
+    }
 </script>

@@ -5,16 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "prettier": "prettier -w *"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "vue": "^2.6.6",
+    "vue-analytics": "^5.16.4",
     "gsap": "^2.1.2",
-    "nprogress": "^0.2.0",
     "scrollmagic": "^2.0.6",
     "scrollmagic-plugin-gsap": "^1.0.3",
-    "vue": "^2.6.6",
-    "vue-analytics": "^5.16.4"
+    "nprogress": "^0.2.0"
   },
   "devDependencies": {
     "@gfx/zopfli": "^1.0.11",
@@ -34,10 +33,5 @@
     "vue-router": "^3.0.6",
     "vue-template-compiler": "^2.5.21",
     "workbox-webpack-plugin": "^4.3.1"
-  },
-  "engines": {
-    "node": "15.14.0",
-    "npm": "7.7.6"
-  },
-  "engineStrict": true
+  }
 }

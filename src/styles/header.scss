@@ -1,4 +1,4 @@
-//Layout
+ //Layout
 #header {
     position: fixed;
     top: 0;
@@ -9,7 +9,7 @@
     padding: 0 1rem 5rem;
 }
 
-//Layout container
+ //Layout container
 .header-container {
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
 .header-breadcrumb {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--purple);
+    color: var(--purple)
 }
 
 //Navigation Menu
@@ -35,20 +35,18 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0.8rem;
+    padding: .8rem;
     margin-right: -1rem; // align with viewport
     background: none;
     border: 0;
 
-    .label {
-        display: none;
-    }
+    .label { display: none }
     .dots {
         flex: 0 0 auto;
         position: relative;
-        width: 0.25rem;
-        height: 0.25rem;
-        border-radius: 0.25rem;
+        width: .25rem;
+        height: .25rem;
+        border-radius: .25rem;
         background: var(--header-link);
         transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1);
     }
@@ -57,13 +55,13 @@
     display: flex;
     align-items: center;
 
-    ul {
+    ul{
         display: flex;
         align-items: center;
         list-style: none;
     }
 
-    li {
+    li{
         flex: 0 0 auto;
         margin-left: 1rem;
         list-style: none;
@@ -87,7 +85,7 @@
         }
 
         &.router-link-exact-active {
-            opacity: 0.5;
+            opacity: .5;
             cursor: default;
         }
 
@@ -102,115 +100,112 @@
             transition: fill 400ms ease-out;
         }
     }
+
 }
 
-@media screen and (max-width: 768px) {
-    .header-nav-button {
-        transition: all 1s linear;
-    }
-    .header-nav-close-button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 3rem;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        background: none;
-        border: 0;
-        color: var(--purple);
-        font-size: 2rem;
+ @media screen and (max-width: 768px) {
 
-        &:hover {
-            color: var(--light);
-        }
-    }
-    .header-nav {
-        align-items: flex-end;
-        justify-content: flex-end;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 9999;
-        width: 100vw;
-        height: 100vh;
-        padding: 8rem 1rem 4rem;
-        text-align: right;
-        transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
-        transform: translate3d(110%, 0, 0);
+     .header-nav-button { transition: all 1s linear }
+     .header-nav-close-button {
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 3rem;
+         height: 3rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 0;
+         margin: 0;
+         background: none;
+         border: 0;
+         color: var(--purple);
+         font-size: 2rem;
 
-        ul {
-            display: block;
-        }
+         &:hover { color: var(--light); }
+     }
+     .header-nav {
+         align-items: flex-end;
+         justify-content: flex-end;
+         position: absolute;
+         top: 0;
+         right: 0;
+         z-index: 9999;
+         width: 100vw;
+         height: 100vh;
+         padding: 8rem 1rem 4rem;
+         text-align: right;
+         transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+         transform: translate3d(110%,0,0);
 
-        li {
-            margin: 0 0 2rem;
-            list-style: none;
+         ul{
+             display: block;
+         }
 
-            &.social-link {
-                display: inline-block;
-                margin: 0 0 0 2rem;
-            }
-        }
+         li{
+             margin: 0 0 2rem;
+             list-style: none;
 
-        //links
-        a {
-            height: auto;
-            justify-content: flex-end;
-            font-size: 3rem;
-            font-weight: 700;
+             &.social-link {
+                 display: inline-block;
+                 margin: 0 0 0 2rem;
+             }
+         }
 
-            &:hover {
-                color: var(--header-link-hover);
+         //links
+         a {
+             height: auto;
+             justify-content: flex-end;
+             font-size: 3rem;
+             font-weight: 700;
 
-                svg {
-                    fill: var(--header-link-hover-icon);
-                }
-            }
+             &:hover {
+                 color: var(--header-link-hover);
 
-            &.router-link-exact-active {
-                opacity: 0.5;
-                cursor: default;
-            }
+                 svg {
+                     fill: var(--header-link-hover-icon);
+                 }
+             }
 
-            //icons
-            svg {
-                width: 3rem;
-                height: 3rem;
-                top: 0;
-            }
-        }
-    }
+             &.router-link-exact-active {
+                 opacity: .5;
+                 cursor: default;
+             }
 
-    body.-open-nav {
-        // hide
-        .wrapper {
-            opacity: 0.1 !important;
-        }
-        // hide open bt
-        .header-nav-button {
-            opacity: 0;
-        }
-        // show menu
-        .header-nav {
-            transform: translate3d(0, 0, 0);
-        }
-    }
-}
+             //icons
+             svg {
+                 width: 3rem;
+                 height: 3rem;
+                 top: 0
+             }
+         }
+     }
 
-@media screen and (max-width: 568px) {
-    .header-nav {
-        a {
-            font-size: 2rem;
+     body.-open-nav{
 
-            svg {
-                width: 2rem;
-                height: 2rem;
-                top: 0;
-            }
-        }
-    }
-}
+         // hide
+         .wrapper { opacity: .1 !important }
+         // hide open bt
+         .header-nav-button { opacity: 0 }
+         // show menu
+         .header-nav{ transform: translate3d(0,0,0) }
+
+     }
+
+ }
+
+ @media screen and (max-width: 568px) {
+
+     .header-nav {
+         a {
+             font-size: 2rem;
+
+             svg {
+                 width: 2rem;
+                 height: 2rem;
+                 top: 0
+             }
+         }
+     }
+
+ }
